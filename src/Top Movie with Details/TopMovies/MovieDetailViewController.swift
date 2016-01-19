@@ -22,7 +22,7 @@ class MovieDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      //  self.posterImageView.text = moviePosterURL
+        self.posterImageView?.setImageWithURL(moviePosterURL!)
         self.titleLabel.text = titleString
         self.directorLabel.text = directorString
         self.descriptionLabel.text = descriptionString
