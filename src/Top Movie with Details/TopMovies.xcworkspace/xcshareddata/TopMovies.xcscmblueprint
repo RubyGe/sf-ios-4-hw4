@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C4427519A4E6D284AA29F8BC147EC138BC98FAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0C4427519A4E6D284AA29F8BC147EC138BC98FAE" : 0,
+    "1BACF8B92899B8F563CB65D5A5C6688626B958E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7271D4F4-346F-4276-B569-2DFAFD5AAB75",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0C4427519A4E6D284AA29F8BC147EC138BC98FAE" : "Top%20Movies\/",
+    "1BACF8B92899B8F563CB65D5A5C6688626B958E8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TopMovies",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TopMovies\/TopMovies.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RubyGe\/ga-sf-ios4-top-movies.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C4427519A4E6D284AA29F8BC147EC138BC98FAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RubyGe\/sf-ios-4-hw4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BACF8B92899B8F563CB65D5A5C6688626B958E8"
+    }
+  ]
+}
