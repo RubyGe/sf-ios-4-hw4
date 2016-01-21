@@ -108,11 +108,7 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
         // Get the new view controller using segue.destinationViewController.
         let path = self.movieListTableView.indexPathForSelectedRow!
         let destinationViewController = segue.destinationViewController as! MovieDetailViewController
-        
-        var titleString: String?
-        var directorString: String?
-        var descriptionString: String?
-        var moviePosterURL: NSURL?
+       
         
         destinationViewController.titleString = self.titleStringForMovieAtIndex(path.row)
         destinationViewController.directorString = self.directorStringForMovieAtIndex(path.row)
