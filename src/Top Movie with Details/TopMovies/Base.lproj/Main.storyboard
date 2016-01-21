@@ -253,11 +253,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="3" translatesAutoresizingMaskIntoConstraints="NO" id="nMB-9t-Wcl" customClass="s">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="3" translatesAutoresizingMaskIntoConstraints="NO" id="nMB-9t-Wcl" customClass="s">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="top" secondItem="fiu-S7-0FC" secondAttribute="bottom" id="0al-G5-v1q"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="top" secondItem="fiu-S7-0FC" secondAttribute="bottom" id="5sS-gd-N5R"/>
+                            <constraint firstItem="HEX-Sb-p3n" firstAttribute="top" secondItem="nMB-9t-Wcl" secondAttribute="bottom" id="7im-j7-SPg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nMB-9t-Wcl" secondAttribute="trailing" id="Cds-Ry-TMj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="nMB-9t-Wcl" secondAttribute="leading" id="Dez-KF-F3S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nMB-9t-Wcl" secondAttribute="trailing" constant="-20" id="KAd-6G-Tbz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nMB-9t-Wcl" secondAttribute="trailing" id="LfQ-5j-W66"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="top" secondItem="fiu-S7-0FC" secondAttribute="bottom" id="UY9-7o-YND"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="leading" secondItem="7AC-wm-Lp7" secondAttribute="leadingMargin" id="Xak-jh-nvi"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="top" secondItem="fiu-S7-0FC" secondAttribute="bottom" constant="-60" id="dL3-qY-DuZ"/>
+                            <constraint firstItem="HEX-Sb-p3n" firstAttribute="top" secondItem="nMB-9t-Wcl" secondAttribute="bottom" id="fit-8p-v1a"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="top" secondItem="7AC-wm-Lp7" secondAttribute="topMargin" id="lGw-Xd-yeE"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="leading" secondItem="7AC-wm-Lp7" secondAttribute="leadingMargin" constant="-20" id="pwy-Fa-FGi"/>
+                            <constraint firstItem="nMB-9t-Wcl" firstAttribute="leading" secondItem="7AC-wm-Lp7" secondAttribute="leadingMargin" id="u3a-r8-AoX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0al-G5-v1q"/>
+                                <exclude reference="5sS-gd-N5R"/>
+                                <exclude reference="Cds-Ry-TMj"/>
+                                <exclude reference="Dez-KF-F3S"/>
+                                <exclude reference="LfQ-5j-W66"/>
+                                <exclude reference="UY9-7o-YND"/>
+                                <exclude reference="Xak-jh-nvi"/>
+                                <exclude reference="dL3-qY-DuZ"/>
+                                <exclude reference="u3a-r8-AoX"/>
+                                <exclude reference="fit-8p-v1a"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="nMB-9t-Wcl" id="G3g-Lw-yj1"/>
